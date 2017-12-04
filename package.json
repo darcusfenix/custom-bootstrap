@@ -5,11 +5,11 @@
   "main": "build/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lessc src/index.less build/index.css",
+    "build": "lessc index.less build/index.css",
     "start": "npm-watch"
   },
   "watch": {
-    "build": "src/index.less"
+    "build": "index.less"
   },
   "repository": {
     "type": "git",
