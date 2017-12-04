@@ -1,0 +1,31 @@
+{
+  "name": "custom-bootstrap",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lessc src/index.less build/index.css",
+    "start": "npm-watch"
+  },
+  "watch": {
+    "build": "src/index.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcusfenix/custom-bootstrap.git"
+  },
+  "author": "Juan Crisóstomo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darcusfenix/custom-bootstrap/issues"
+  },
+  "homepage": "https://github.com/darcusfenix/custom-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "less": "^2.7.3"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.3.0"
+  }
+}
